@@ -6,6 +6,7 @@
 # FlatAF
 
 FlatAF Astrophotography Flat Panel by AstroAF
+<img src="assets/design/FlatAF.jpeg" alt="FlatAF Overview" style="max-width: 650px;">
 
 # Basic Use Guide
 
