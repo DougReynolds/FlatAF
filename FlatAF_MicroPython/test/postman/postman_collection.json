@@ -1,0 +1,382 @@
+{
+  "info": {
+    "name": "FlatAF Alpaca Controller",
+    "_postman_id": "8e6f3a7a-4c75-4d93-9e2b-000000000001",
+    "description": "Postman collection for testing FlatAF Alpaca controller endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Connected Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/connected",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "connected"]
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "type": "text/javascript",
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Set Connected Status",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/connected?Connected=true",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "connected"],
+          "query": [
+            {
+              "key": "Connected",
+              "value": "true"
+            }
+          ]
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "type": "text/javascript",
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Turn Calibrator On",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/calibratoron",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "calibratoron"]
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "type": "text/javascript",
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Turn Calibrator Off",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/calibratoroff",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "calibratoroff"]
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "type": "text/javascript",
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toggle Calibrator",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/toggle",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "toggle"]
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "type": "text/javascript",
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Get Brightness",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/brightness",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "brightness"]
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "type": "text/javascript",
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Set Brightness",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/setbrightness?Brightness=32000",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "setbrightness"],
+          "query": [
+            {
+              "key": "Brightness",
+              "value": "32000"
+            }
+          ]
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "type": "text/javascript",
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});"
+              ]
+            }
+          }
+        ]
+      }
+    }
+    ,
+    {
+      "name": "Get API Versions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/management/apiversions",
+          "host": ["{{base_url}}"],
+          "path": ["management", "apiversions"]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    },
+    {
+      "name": "Get Max Brightness",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/maxbrightness",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "maxbrightness"]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    },
+    {
+      "name": "Get Driver Info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/driverinfo",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "driverinfo"]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    },
+    {
+      "name": "Get Interface Version",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/covercalibrator/0/interfaceversion",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "covercalibrator", "0", "interfaceversion"]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    },
+    {
+      "name": "Get AstroAF Logo",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/astroAF_logo2.png",
+          "host": ["{{base_url}}"],
+          "path": ["astroAF_logo2.png"]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    },
+    {
+      "name": "Get Homepage",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/",
+          "host": ["{{base_url}}"],
+          "path": [""]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    },
+    {
+      "name": "Get Index Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/index",
+          "host": ["{{base_url}}"],
+          "path": ["index"]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    },
+    {
+      "name": "Get API Version",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/version",
+          "host": ["{{base_url}}"],
+          "path": ["api", "version"]
+        },
+        "event": [{
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ]
+          }
+        }]
+      }
+    }
+  ]
+}

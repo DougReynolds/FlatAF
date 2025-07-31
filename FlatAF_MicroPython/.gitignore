@@ -1,0 +1,6 @@
+.vscode
+FlatAF2.code-workspace
+pymakr.conf
+secrets.py
+.DS_Store
+version.json
