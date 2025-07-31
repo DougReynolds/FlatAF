@@ -27,6 +27,7 @@ This document provides an in-depth look at the physical, electrical, and mechani
   - [3D Enclosure Files](#3d-enclosure-files)
   - [Device Dimensions](#device-dimensions)
   - [Power Design](#power-design)
+  - [Return to Main Project README](#return-to-main-project-readme)
   - [Related Downloads](#related-downloads)
 
 ---
@@ -175,6 +176,9 @@ The following table lists all required components with direct links to purchase 
 The device can be powered via USB-C with support for 5V input. A 3.7V LiPo battery can also be connected via the onboard JST connector for wireless use. Charging is managed via an onboard charger IC.
 
 ---
+
+## Return to Main Project README
+[← Back to Main Project README](README.md)
 
 ## Related Downloads
 

@@ -34,6 +34,7 @@ FlatAF Astrophotography Flat Panel by AstroAF
     - [Bonus: File Automation](#bonus-file-automation)
     - [Field-Ready Checklist](#field-ready-checklist)
     - [Optional Enhancements](#optional-enhancements)
+  - [Check Out Design README](#check-out-design-readme)
   - [Support FlatAF](#support-flataf)
 
 ## What Is a Flat Panel?
@@ -271,6 +272,9 @@ Windows hotspots are unreliable in the field:
 - Map shared folders to drive letters (e.g., `Z:\`).
 
 This setup ensures a reliable, internet-free, fully automated astrophotography workflow anywhere you can power your gear.
+
+## Check Out Design README
+[← Design README](README_Design.md)
 
 ## Support FlatAF
 
