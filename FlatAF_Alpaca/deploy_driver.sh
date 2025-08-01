@@ -5,7 +5,7 @@
 # Project: FlatAF (ASCOM Alpaca Driver)
 # Purpose: Packages the FlatAF_Alpaca driver into a deployable ZIP archive
 # Website: https://astroaf.space
-# License: MIT
+# License: See LICENSE.md (ASCOM and CC BY-NC 4.0)
 # 
 
 ####################

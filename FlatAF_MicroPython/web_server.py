@@ -3,7 +3,7 @@ Author: Douglas Reynolds
 Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Runs onboard HTTP API for ASCOM-compatible brightness and status control
 Website: https://astroaf.space
-License: MIT
+License: See LICENSE.md (CC BY-NC 4.0)
 """
 
 import uasyncio as asyncio # type: ignore

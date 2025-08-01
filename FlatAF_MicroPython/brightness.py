@@ -3,7 +3,7 @@ Author: Douglas Reynolds
 Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Handles loading and saving of panel brightness from flash memory
 Website: https://astroaf.space
-License: MIT
+License: See LICENSE.md (CC BY-NC 4.0)
 """
 import constants
 

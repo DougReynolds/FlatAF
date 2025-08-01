@@ -4,7 +4,7 @@
 # Project: FlatAF_Alpaca (ASCOM Alpaca CoverCalibrator Driver)
 # Purpose: Updates FlatAF_Alpaca project version in version.json
 # Website: https://astroaf.space
-# License: MIT
+# License: See LICENSE.md (ASCOM and CC BY-NC 4.0)
 
 # === update_version.sh ===
 # Updates FlatAF_Alpaca project version in version.json

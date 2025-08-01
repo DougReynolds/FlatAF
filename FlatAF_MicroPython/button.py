@@ -3,7 +3,7 @@ Author: Douglas Reynolds
 Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Handles button press and long-press detection logic for user input
 Website: https://astroaf.space
-License: MIT
+License: See LICENSE.md (CC BY-NC 4.0)
 """
 import machine # type: ignore
 import time

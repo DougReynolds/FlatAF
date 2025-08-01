@@ -3,7 +3,7 @@
 # Project: FlatAF Alpaca Driver
 # Purpose: Auto-installs and registers the FlatAF Alpaca driver to run on user login
 # Website: https://astroaf.space
-# License: MIT
+# License: See LICENSE.md (ASCOM and CC BY-NC 4.0)
 ###########################
 # === register_task.ps1 ===
 # FlatAF Alpaca Driver Auto-Installer for Windows

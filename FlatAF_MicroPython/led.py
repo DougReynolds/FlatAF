@@ -3,7 +3,7 @@ Author: Douglas Reynolds
 Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Controls LED brightness and behavior using PWM for the FlatAF device
 Website: https://astroaf.space
-License: MIT
+License: See LICENSE.md (CC BY-NC 4.0)
 """
 
 from machine import Pin, PWM # type: ignore

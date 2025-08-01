@@ -3,7 +3,7 @@ Author: Douglas Reynolds
 Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Run functional tests for the LED class behavior and control
 Website: https://astroaf.space
-License: MIT
+License: See LICENSE.md (CC BY-NC 4.0)
 """
 import time
 from led import LED

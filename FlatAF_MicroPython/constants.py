@@ -4,7 +4,7 @@ Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Defines the brightness file name used for writing and retrieving brightness config data,
          and sets default and maximum brightness constants for LED control
 Website: https://astroaf.space
-License: MIT
+License: See LICENSE.md (CC BY-NC 4.0)
 """
 BRIGHTNESS_FILE = "brightness.dat"
 DEFAULT_BRIGHTNESS = 32767

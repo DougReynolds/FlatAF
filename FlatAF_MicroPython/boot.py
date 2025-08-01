@@ -3,7 +3,7 @@ Author: Douglas Reynolds
 Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Initializes external antenna, connects to Wi-Fi or starts AP mode, and ensures brightness file exists
 Website: https://astroaf.space
-License: MIT
+License: See LICENSE.md (CC BY-NC 4.0)
 """
 # boot.py -- run on boot-up
 import os

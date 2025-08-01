@@ -12,7 +12,7 @@
 # Entry point for Alpaca-compatible ASCOM device using the Falcon WSGI app.
 # Part of the FlatAF project supporting remote automation for flat panel control.
 #
-# License: MIT (see LICENSE file)
+# License: See LICENSE.md (ASCOM and CC BY-NC 4.0) (see LICENSE file)
 # -----------------------------------------------------------------------------
 # Python Compatibility: Requires Python 3.7 or later
 # GitHub: https://github.com/ASCOMInitiative/AlpycaDevice
