@@ -4,6 +4,7 @@ Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Main application entry point that initializes hardware, handles button logic, and starts web and discovery services
 Website: https://astroaf.space
 License: See LICENSE.md (CC BY-NC 4.0)
+Copyright (c) 2025 Douglas Reynolds AstroAF
 """
 
 

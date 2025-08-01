@@ -5,6 +5,8 @@
 # Project: FlatAF Alpaca Driver
 # File: ascom_api.py
 # Description: Client interface for communicating with the ASCOM Alpaca driver.
+# License: See LICENSE.md (ASCOM and CC BY-NC 4.0) (see LICENSE file)
+# Copyright (c) 2025 Douglas Reynolds AstroAF
 ##############################
 
 

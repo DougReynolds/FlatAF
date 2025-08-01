@@ -4,6 +4,7 @@ Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Implements Alpaca-compliant API endpoints for FlatAF device control
 Website: https://astroaf.space
 License: See LICENSE.md (CC BY-NC 4.0)
+Copyright (c) 2025 Douglas Reynolds AstroAF
 """
 import json
 from led import LED

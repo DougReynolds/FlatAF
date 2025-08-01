@@ -4,6 +4,7 @@ Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Controls LED brightness and behavior using PWM for the FlatAF device
 Website: https://astroaf.space
 License: See LICENSE.md (CC BY-NC 4.0)
+Copyright (c) 2025 Douglas Reynolds AstroAF
 """
 
 from machine import Pin, PWM # type: ignore

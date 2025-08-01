@@ -13,6 +13,7 @@
 # Part of the FlatAF project supporting remote automation for flat panel control.
 #
 # License: See LICENSE.md (ASCOM and CC BY-NC 4.0) (see LICENSE file)
+# Copyright (c) 2025 Douglas Reynolds AstroAF
 # -----------------------------------------------------------------------------
 # Python Compatibility: Requires Python 3.7 or later
 # GitHub: https://github.com/ASCOMInitiative/AlpycaDevice

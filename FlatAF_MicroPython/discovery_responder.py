@@ -4,6 +4,7 @@ Project: FlatAF (MicroPython ESP32 Firmware)
 Purpose: Responds to Alpaca discovery broadcasts with device identity info
 Website: https://astroaf.space
 License: See LICENSE.md (CC BY-NC 4.0)
+Copyright (c) 2025 Douglas Reynolds AstroAF
 """
 import uasyncio as asyncio # type: ignore
 import usocket as socket # type: ignore

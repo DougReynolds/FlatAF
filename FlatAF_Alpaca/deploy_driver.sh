@@ -6,6 +6,7 @@
 # Purpose: Packages the FlatAF_Alpaca driver into a deployable ZIP archive
 # Website: https://astroaf.space
 # License: See LICENSE.md (ASCOM and CC BY-NC 4.0)
+# Copyright (c) 2025 Douglas Reynolds AstroAF
 # 
 
 ####################

@@ -5,6 +5,7 @@ Purpose: Defines the brightness file name used for writing and retrieving bright
          and sets default and maximum brightness constants for LED control
 Website: https://astroaf.space
 License: See LICENSE.md (CC BY-NC 4.0)
+Copyright (c) 2025 Douglas Reynolds AstroAF
 """
 BRIGHTNESS_FILE = "brightness.dat"
 DEFAULT_BRIGHTNESS = 32767

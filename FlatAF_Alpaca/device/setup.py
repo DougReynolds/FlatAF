@@ -6,6 +6,8 @@
 # Author: Douglas Reynolds
 # Project: FlatAF - Open Source Flat Panel for Astrophotography
 # Website: https://astroaf.space
+# License: See LICENSE.md (ASCOM and CC BY-NC 4.0) (see LICENSE file)
+# Copyright (c) 2025 Douglas Reynolds AstroAF
 # -----------------------------------------------------------------------------
 
 # -*- coding: utf-8 -*-

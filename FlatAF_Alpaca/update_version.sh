@@ -5,7 +5,7 @@
 # Purpose: Updates FlatAF_Alpaca project version in version.json
 # Website: https://astroaf.space
 # License: See LICENSE.md (ASCOM and CC BY-NC 4.0)
-
+# Copyright (c) 2025 Douglas Reynolds AstroAF
 # === update_version.sh ===
 # Updates FlatAF_Alpaca project version in version.json
 

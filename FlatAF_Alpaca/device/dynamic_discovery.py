@@ -3,6 +3,8 @@
 # Project: FlatAF Alpaca Driver
 # File: dynamic_discovery.py
 # Description: Alpaca network discovery module for FlatAF CoverCalibrator
+# License: See LICENSE.md (ASCOM and CC BY-NC 4.0) (see LICENSE file)
+# Copyright (c) 2025 Douglas Reynolds AstroAF
 # -----------------------------------------------------------------------------
 # dynamic_discovery.py
 
