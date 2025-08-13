@@ -39,7 +39,7 @@ FlatAF Astrophotography Flat Panel by AstroAF
   - [Support FlatAF](#support-flataf)
 
 ## What Is a Flat Panel?
-[![FlatAF - I Built This From Scratch And You Can Too!](assets/basic-use/flataf_thumb.png)](https://www.youtube.com/watch?v=CEg_vrIVKDM&t=81s)
+<a href="https://www.youtube.com/watch?v=CEg_vrIVKDM&t=81s" target="_blank"><img src="assets/basic-use/flataf_thumb.png" alt="FlatAF - I Built This From Scratch And You Can Too!"></a>
 
 A flat panel is an evenly illuminated light source used in astrophotography to capture flat frames — calibration exposures that correct for uneven illumination across the imaging sensor. This includes issues like dust on the sensor or filters, vignetting, and gradients introduced by the optical system.
 
